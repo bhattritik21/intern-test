@@ -1,0 +1,79 @@
+.profile{
+    align-items: center;
+  padding-left:45%;
+    justify-content: space-evenly;
+    display: block;
+    position: relative;
+    margin-left: 30px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.search{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.add{
+    background-color: rgb(0, 173, 241);
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+    width: 20%;
+}
+.search>input{
+    border: none ;
+    padding: 1%;
+    background-color: rgb(27, 27, 29);
+}
+::placeholder{
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+}
+.footer>h3{
+    font-size: 0.9em;
+    text-align: center;
+}
+.foot-img{
+margin-left: 20px;
+    width: 80%;
+    height: 180px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.newapp{
+    font-size: 0.8em;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.user{
+    align-items: center;
+    display: flex;
+    font-size: 0.75em;
+    justify-content: space-between;
+    text-align:start;
+}
+.name{
+margin-left: -30%;
+}
+.sd{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.name>h5>span{
+    color: cyan;
+}
+.pimg{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.icon{
+    color: white;
+}

@@ -1,0 +1,148 @@
+.dash{
+	padding: 3%;
+	width: 60vw;
+	padding-top:10px;
+}
+.date{
+	margin: 0;
+}
+
+.cards{
+	background-color: rgb(24, 24, 26);
+	display: flex;
+	margin-top: 20px;
+
+}
+#class{
+	width: 27%;
+	padding:2%;
+	height: 95px;
+	margin: 1%;
+	border-radius: 20px;
+}
+.card1{
+ border: 5px solid rgb(31, 31, 32);
+}
+.card2{
+background-color: rgb(0, 173, 241);
+}
+.card3{
+border: 5px solid rgb(31, 31, 32);
+}
+.card1>.inside_card> .incard>span{
+	color: rgb(162, 0, 255); 
+}
+
+.card3>.inside_card> .incard>span{
+	color: rgb(255, 30, 0);
+}
+.inside_card{
+display: flex;
+justify-content: space-between;
+}
+.date>span{color: cyan;}
+.head-dash{
+	display: flex;
+	justify-content: space-between;
+}
+
+.head-dash>span{
+color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700');
+
+
+.circle-container{
+  width: 75px;
+  height: 75px;
+  background: #E1E1E1;
+  border-radius: 50%;
+}
+
+.item, .fill{
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+ .purple>.item{
+  clip: rect(0px, 100px, 100px, 51px);
+}
+.white>.item{
+	clip: rect(0px, 100px, 100px, 59px);
+  }
+
+  .red>.item{
+	clip: rect(0px, 100px, 45px, 47px);
+  }
+  
+.purple .item .fill{
+  clip: rect(0px, 64px, 190px, 0px);
+  background-color: #a028d7;
+}
+.white .item .fill{
+	clip: rect(0px, 64px, 190px, 0px);
+	background-color: #ffffff;
+  }
+ .red .item .fill{
+	clip: rect(0px, 19px, 40px, 0px);
+	background-color: #e45244;
+  }
+
+.item.layer-1, .fill{
+  transform: rotate(126deg);
+}
+.white>.item.layer-1{
+	transform: rotate(86deg);
+  }
+  .red>.item.layer-1{
+	transform: rotate(-43deg);
+  }
+@keyframes fill {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(126deg);
+  }
+}
+
+.inside-content{
+	color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(24, 24, 26);
+  text-align: center;
+  margin-top: 8px;
+  margin-left: 8px;
+  position: absolute;
+  line-height: 60px;
+}
+.white>.inside-content{
+	background: rgb(0, 173, 241);
+}
+
+.footer{
+	padding: 1%;
+	width: 28vw;
+	background-color: rgb(27, 27, 29);
+	border-left: 5px solid rgb(44, 41, 41);
+}
+
+@media (max-width:1100px){
+ body{
+	 font-size: 0.8em;
+ }
+ .btn{
+	font-size: 0.8em;
+}
+}
+@media (max-width:800px){
+	body{
+		font-size: 0.6em;
+	}
+
+   }

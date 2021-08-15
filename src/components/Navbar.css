@@ -1,0 +1,55 @@
+.navbar {
+  align-items: center;
+  width: 6vw;
+  border-right: solid 8px rgb(30, 38, 58);
+  height: 100vh;
+}
+
+.navbar>ul>li{
+  list-style: none;
+  cursor: pointer;
+  padding: 0;
+}
+.navbar>ul{
+  padding-left: 0;
+}
+.head-nav{
+  margin-bottom: 20px;
+}
+
+.nav-end{
+ margin-top: 15vh;
+}
+
+
+/* 
+.nav-menu {
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+} */
+
+.acive>svg {
+color:cyan;
+border-right: cyan solid 5px;
+border-radius: 4px;
+}
+
+.nav-text {
+  height: 50px;
+}
+.nav-text>svg {
+  width:100%;
+  height: 40%;
+  color: rgb(255, 255, 255);
+}
+
+.head-nav>svg{
+  height: 60%;
+  }
